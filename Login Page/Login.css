@@ -1,0 +1,75 @@
+* {
+    font-family: 'Calligraffitti', cursive;
+    src : url('./Assets/Source_Sans_Pro/SourceSansPro-Black.ttf');
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("/Assets/Images/Background/login_background.jpg")no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+    display: grid;
+    position: absolute;
+    right: 0;
+    padding: 20px;
+    width: 450px; 
+    height:inherit;
+    background-color:white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.288) ;
+}
+.brand{
+    align-self: center;
+    justify-self: center;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#form_header{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    color:yellowgreen;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+}
+
+.LoginDetails{
+    display: contents;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius:10px ;
+}
+.TextFields{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+#LoginButton{
+    color:black;
+    width: 150px;
+    height: 40px;
+    background-color:rgb(142, 211, 39);
+    border-radius:10px;
+    color: whitesmoke;
+    border: none;
+    font-weight:500;
+    letter-spacing: 1px;
+}
+

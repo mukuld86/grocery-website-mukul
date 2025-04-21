@@ -1,0 +1,43 @@
+.page-addr p{
+    line-height: 50px;
+    background-color: rgb(142, 211, 39);
+    padding-left: 30px;
+    color: white;
+}
+
+.page-addr p a{
+    text-decoration: none;
+    color: white;
+}
+
+.content{
+    width: calc(100);
+}
+
+.content .heading-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-heading{
+
+}
+.content section .cards{
+    margin-top: 0;
+}
+.content .sub-heading{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.content .food-sec{
+padding: 20px;
+}
+.content .add-to-cart{
+    background-color: red;
+}
+
+.food-sec .cards{
+    overflow-y: scroll;
+}
