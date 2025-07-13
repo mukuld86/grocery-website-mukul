@@ -1,9 +1,10 @@
 * {
-    font-family: 'Calligraffitti', cursive;
+    font-family: Calligraffitti, cursive;
     src : url('./Assets/Source_Sans_Pro/SourceSansPro-Black.ttf');
     margin: 0;
     padding: 0;
 }
+
 body{
     background: url("/Assets/Images/Background/register_background.jpg")no-repeat;
     background-size: cover;
@@ -22,17 +23,19 @@ body{
     width: 450px; 
     height: 100vh;
     background-color:white;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.288) ;
+    box-shadow: 0 0 20px rgb(0 0 0 / 28.8%) ;
 }
+
 .brand{
-    align-self: center;
-    justify-self: center;
+    place-self: center center;
 }
+
 .container form{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 #form_header{
     width: 100%;
     height: 50px;
@@ -46,10 +49,11 @@ body{
 
 .row{
     width: 100%;
-    margin:20px 0 0 0;
+    margin:20px 0 0;
     display: flex;
     justify-content: center;
 }
+
 .row_grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -59,7 +63,7 @@ body{
 .row input{
     height: 40px;
     text-align: center;
-    border: 1px solid rgba(0, 0, 0, 0.288);
+    border: 1px solid rgb(0 0 0 / 28.8%);
     border-radius: 10px;
     padding-left: 10px;
 }
@@ -67,23 +71,23 @@ body{
 #email, #reg_no{
     width: 96%;
 }
+
 select{
     width:100%;
     height: 30px;
-    border: 1px solid rgba(0, 0, 0, 0.288);
+    border: 1px solid rgb(0 0 0 / 28.8%);
     border-radius: 10px;
     padding-left: 10px;
 }
 
 .row_no_margin{
-    margin:0px;
+    margin:0;
 }
 
 #btn{
-    color:black;
     width: 150px;
     height: 40px;
-    background-color:rgb(142, 211, 39);
+    background-color:rgb(142 211 39);
     border-radius:10px;
     color: whitesmoke;
     border: none;
