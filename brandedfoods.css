@@ -11,7 +11,7 @@
 }
 
 .content{
-    width: calc(100);
+    width: calc(100%);
 }
 
 .content .heading-body {
@@ -20,8 +20,8 @@
     align-items: center;
 }
 
-.sub-heading{
-
+.food-sec .cards{
+    overflow-y: scroll;
 }
 
 .content section .cards{
@@ -43,6 +43,3 @@ padding: 20px;
     background-color: red;
 }
 
-.food-sec .cards{
-    overflow-y: scroll;
-}

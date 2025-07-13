@@ -129,45 +129,58 @@ header{
     position: absolute;
     top:40px;
     right: 10px;
+}    
+
+.information ul, .policy-info ul, .whats-in-store ul{
+    list-style:circle;
 }
 
 .contact-info .info-top nav ul{
     text-decoration: none;
     list-style: none;
     display: flex;
-}
+}    
+
+.sidebar a{
+    text-decoration: none;
+}    
 
 .contact-info .info-top nav ul a{
     text-decoration: none;
     color: rgb(50 50 50);
-}
+}    
 
 .contact-info .info-top nav ul li{
     width: 120px;
     text-align: center;
     position: relative;
-}
+}    
 
+.post p span{
+    color: rgb(142 211 39);
+}    
+
+.copyright{
 .contact-info .info-top nav ul li span{
     position: absolute;
     right: 0;
-}
+}    
 
 .contact-info .info-bottom{
     position: absolute;
     right: 40px;
     bottom: 20px;
     display: flex;
-}
+}    
 
 .contact-info .info-bottom .contact{
     margin-right: 20px;
-}
+}    
 
 .fa-phone, .fa-envelope{
     color:rgb(50 50 50);
     font-size: 15px;
-}
+}    
 
 
 /* -----------------content body---------------------------------------- */
@@ -176,26 +189,17 @@ header{
     display: grid;
     grid-template-columns: 400px calc(100vw - 400px);
     overflow: hidden;
-}
+}    
 
 .content{
     width: 100%;
     overflow-y: scroll;
-}
+}    
 
 .sidebar{
     width: inherit;
     height: 100%;
-}
-
-.sidebar a{
-    text-decoration: none;
-}
-
-.sidebar a:hover .list{
-    padding-left: 35px;
-    transition: 200ms;
-}
+}    
 
 .list{
     color: rgb(50 50 50);
@@ -205,7 +209,12 @@ header{
     align-items: center;
     border-bottom:1px solid rgb(0 0 0 / 40%) ;
     transition: 200ms;
-}
+}    
+
+.sidebar a:hover .list{
+    padding-left: 35px;
+    transition: 200ms;
+}    
 
 .droplist{
     width: 100%;
@@ -215,18 +224,18 @@ header{
     background-color: rgb(248 248 248);
     padding-left: 25px;
     border-bottom: 1px solid rgb(0 0 0 / 40%);
-}
+}    
 
 .banner{
     width: 100%;
     height: fit-content;
-}
+}    
 
 .banner img{
     overflow: hidden;
     height: 650px;
     object-fit: cover;
-}
+}    
 
 .content .cards{
     margin-top: 100px;
@@ -235,7 +244,7 @@ header{
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
-}
+}    
 
 .hot-offers,.top-products{
     padding-top: 40px;
@@ -244,23 +253,23 @@ header{
     flex-direction: column;
     align-items: center;
     padding-bottom: 40px;
-}
+}    
 
 .heading{
     width: 100%;
     text-align: center;
     font-size: 40px;
-}
+}    
 
 .hot-offers .cards{
     display: flex;
     justify-content: space-evenly;
     overflow-y: scroll;
-}
+}    
 
 .card-set{
     display: flex;
-}
+}    
 
 .outer-card{
     width: 300px;
@@ -269,13 +278,13 @@ header{
     margin: 10px;
     padding: 10px;
     border: 1px solid rgb(0 0 0 / 20%);
-}
+}    
 
 .inner-card{
     border: 1px solid rgb(0 0 0 / 20%);
     height: 100%;
     position: relative;
-}
+}    
 
 .inner-card .item-img{
     margin-top: 50px;
@@ -283,27 +292,40 @@ header{
     width: 100%;
     display: flex;
     justify-content: center;
+}    
+
+.connect-with-us p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
 }
+
+.top-products img{
+    width: 100%;
+    margin-bottom: 20px;
+
+}        
 
 .inner-card .item-img img{
     width: 150px;
-}
+    font-weight: bold;
+}            
 
 .inner-card .label {
     width: 100%;
     padding-left: 20px;
     font-size: 18px;
-}
+}            
 
 .inner-card .price{
     padding-left: 20px;
     margin-top: 10px;
     margin-bottom: 30px;
-}
+}                
 
 .inner-card .price strike{
     padding-left: 20px;
-}
+}                
 
 .inner-card .add-to-cart{
     position: absolute;
@@ -314,18 +336,17 @@ header{
     height: 40px;
     background-color: rgb(142 211 39);
     border: none;
-    font-weight: bold;
     letter-spacing: 1px;
     color: white;
     cursor: pointer;
     transition: 200ms;
-}
+}                
 
 .inner-card .add-to-cart:hover{
     transition: 200ms;
     box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
-
-}
+    
+}                
 
 .underline{
     width: 100px;
@@ -334,7 +355,7 @@ header{
     border-radius: 2px;
     margin-top: 10px;
     margin-bottom: 20px;
-}
+}                
 
 /* ---------------top-products---------------------------------------- */
 
@@ -342,7 +363,15 @@ header{
     background-color: white;
     margin-top: 40px;
     position: relative;
-}
+}                    
+
+footer .container{
+    margin-top: 60px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}            
 
 .top-products .container{
     width: 1400px;
@@ -352,32 +381,26 @@ header{
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+}                    
 
 .top-products .container .sidelist ul{
     background-color: white;
     list-style: none;
-}
+}                    
 
 .top-products .container .sidelist ul li{
     line-height: 50px;
     padding-left:20px ;
-}
+}                    
 
 .top-products .container .sidelist a{
     text-decoration: none;
     color: rgb(50 50 50);
-}
-
-.top-products img{
-    width: 100%;
-    margin-bottom: 20px;
-
-}
+}                    
 
 .fa-check{
     color: rgb(142 211 39);
-}
+}                
 
 
 
@@ -389,20 +412,20 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+}                
 
 .newsletter .label{
     margin-right: 20px;
     font-size: 20px;
     color: white;
-}
+}                
 
 .newsletter .email .email-field{
     width: 400px;
     height: 40px;
     border: none;
     padding-left: 20px;
-}
+}                
 
 .newsletter .email .subscribe{
     height: 40px;
@@ -414,7 +437,7 @@ header{
     font-weight: bold;
     letter-spacing: 1px;
     color:red;
-}
+}                
 
 
 footer{
@@ -423,69 +446,47 @@ footer{
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-footer .container{
-    margin-top: 60px;
-    width: 1200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-
-}
+}                
 
 .information , .policy-info , .whats-in-store{
     line-height: 40px;
     color: white;
-    font-size: px;
-}
+    font-size: 12px;
+}            
 
 .twitter-post p{
     color:white;
-}
+}            
 
 .information p, .policy-info p, .whats-in-store p, .twitter-post p{
     font-size: 20px;
     margin-bottom: 40px;
-}
-
-.twitter-post .post p{
-    font-size: 16px;
-}
-
-.post{
-    display: flex;
-}
+}            
 
 .post p{
     margin-left: 10px;
     display: flex;
     flex-direction: column;
-}
+}            
+
+.twitter-post .post p{
+    font-size: 16px;
+}                
+
+.post{
+    display: flex;
+}                
 
 .fa-twitter{
     margin-top: 3px;
     color: red;
-}
-
-.post p span{
-    color: rgb(142 211 39);
-}
-
-.information ul, .policy-info ul, .whats-in-store ul{
-    list-style:circle;
-}
+}            
 
 .connect-with-us{
     width: 1200px;
     padding-bottom: 70px;
     border-bottom: 1px solid rgb(255 255 255 / 20%);
-}
-
-.connect-with-us p{
-    font-size: 20px;
-    color: white;
-    margin-bottom: 20px;
-}
+}    
 
 .connect-with-us a i{
     font-size: 3em;
@@ -494,7 +495,6 @@ footer .container{
     text-decoration: none;
 }
 
-.copyright{
     margin-top: 60px;
     color: white;
 }
