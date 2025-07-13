@@ -4,11 +4,10 @@
   "description": "**Live Demo:** [https://grocery-website-mukul.vercel.app/](https://grocery-website-mukul.vercel.app/)",
   "main": "index.js",
   "scripts": {
-    "lint:js": "eslint . --ext .js",
-    "lint:css": "stylelint \"**/*.css\"",
-    "lint:html": "htmlhint **/*.html",
-    "lint": "npm run lint:js && npm run lint:css && npm run lint:html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "lint:js": "eslint . --ext .js",
+  "lint:css": "stylelint \"**/*.css\"",
+  "lint:html": "htmlhint **/*.html",
+  "lint": "npm run lint:js && npm run lint:css && npm run lint:html"
   },
   "repository": {
     "type": "git",
@@ -25,8 +24,6 @@
     "@eslint/js": "^9.31.0",
     "eslint": "^9.31.0",
     "globals": "^16.3.0",
-    "htmlhint": "^1.6.3",
-    "stylelint": "^16.21.1",
     "stylelint-config-standard": "^38.0.0"
   }
 }
