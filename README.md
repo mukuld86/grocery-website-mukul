@@ -1,5 +1,7 @@
 # Grocery Store
 
+⚠️ Heads up: Auto-linting tools (like ESLint or Prettier) have previously caused layout/functionality issues in this project. If you use them, double-check the changes before pushing — some formatting rules don’t play nicely with certain components.
+
 **Live Demo:** [https://grocery-website-mukul.vercel.app/](https://grocery-website-mukul.vercel.app/)
 
 A responsive and user-friendly online grocery store interface designed to provide a seamless shopping experience. This project showcases a modern e-commerce frontend with intuitive navigation, promotional deals, and organized product categories.
