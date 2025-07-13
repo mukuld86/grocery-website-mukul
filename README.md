@@ -1,6 +1,6 @@
 # Grocery Store
 
-⚠️ Heads up: Auto-linting tools (like ESLint or Prettier) have previously caused layout/functionality issues in this project. If you use them, double-check the changes before pushing — some formatting rules don’t play nicely with certain components.
+⚠️ Warning: Using auto-lint messed up parts of the site during development. It’s recommended to lint manually or carefully review auto-fixes before applying them. You've been warned. 😅
 
 **Live Demo:** [https://grocery-website-mukul.vercel.app/](https://grocery-website-mukul.vercel.app/)
 
